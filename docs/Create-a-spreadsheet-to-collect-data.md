@@ -15,6 +15,9 @@
   and insert:
 
   `*/10 * * * * PATH=$PATH:/usr/local/bin /usr/local/bin/speedtest-to-google`
+  ^just fyi, in ubuntu, i had to define my path as an absolute, for whatever reason, the $PATH variable would not play nice.?
+  so i basically echo'd $PATH, and then put the contents in front of my :/usr/local/bin
+  
 
   Save and quit using Ctrl + X.
 1. Now back in the spreadsheet, select the whole columns A - D by clicking on A, then with Shift + Click on D:  
